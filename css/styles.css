@@ -4,25 +4,21 @@
     font-family:arial;
 }
 .contenedor{
-    width: 375px;
-    height:5000px;
+    width: 370px;
+    height:3500px;
     display: grid;
     grid-template-columns:100%;
-    grid-template-rows:5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5%;
+    grid-template-rows:5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 1% 1%;
     margin: auto;
     background-image:url('../img/bg-header-mobile.png');
     background-repeat: no-repeat;
-   /* border: 1px solid red;*/
-
 }
 .contenedor .logo{
-   /* width: 80px;
-    height: 100px;*/
     display: grid;
     grid-column: 1;
     grid-row: 1;
     margin-left:125px;
-    margin-top:120px;
+    margin-top:70px;
 }
 .contenedor .titulo1{
      width:350px;
@@ -31,9 +27,7 @@
      grid-column: 1;
      grid-row:1;
      margin-left:12px;
-     margin-top:300px;
-    
-
+     margin-top:220px;
      display: grid;
      grid-template-columns: 50% 50%;
      grid-template-rows: 50% 50%;
@@ -106,12 +100,12 @@
     font-size:large;
  }
  .contenedor .downloadIos{
-    width:280px;
+    width:240px;
     height:25px;
     padding:10px;
     padding-top:10px;
-    margin-left:35px;
-    margin-top:270px;
+    margin-left:55px;
+    margin-top:235px;
     color: white;
     font-size: large;
     text-align: center;
@@ -122,12 +116,12 @@
     background-image:linear-gradient(rgb(7, 232, 252),rgb(7, 232, 252), rgb(36, 154, 164) );
  }
  .contenedor .downloadMac{
-    width:280px;
+    width:240px;
     height:25px;
     padding:10px;
     padding-top:10px;
-    margin-left:35px;
-    margin-top:100px;
+    margin-left:55px;
+    margin-top:110px;
     color: white;
     font-size: large;
     text-align: center;
@@ -141,7 +135,7 @@
    width:300px;
    height:25px;
    margin-left:35px;
-   margin-top:220px;
+   margin-top:180px;
    color: rgb(90, 87, 87);
    font-size: medium;
    display: grid;
@@ -262,6 +256,7 @@
 .contenedor .imagenComputer{
    width:300px;
    height:150px;
+   margin-top:25px;
    margin-left:45px;
    display: grid;
    grid-column: 1;
@@ -275,11 +270,10 @@
    width:330px;
    height:120px;
    margin-left:30px;
-   margin-top:90px;
+   margin-top:65px;
    display: grid;
    grid-column: 1;
    grid-row:6;
-   
    display: grid;
    grid-template-columns: 50% 50%;
    grid-template-rows:25% 25% 25% 25%;
@@ -291,7 +285,7 @@
    grid-row:1;
    height:25px;
    margin-left:85px;
-   margin-top:0px;
+   margin-top:10px;
    color: rgb(90, 87, 87);
    font-size: medium;
 }
@@ -333,7 +327,7 @@
    width:330px;
    height:100px;
    margin-left:30px;
-   margin-top:30px;
+   margin-top:20px;
    display: grid;
    grid-column: 1;
    grid-row:7;
@@ -353,7 +347,6 @@
    color: rgb(90, 87, 87);
    font-size: medium;
 }
-
 .icloudSync .textos{
    width:300px;
    height:50px;
@@ -369,7 +362,6 @@
    grid-template-columns: 50% 50%;
    grid-template-rows:25% 25% 25% 25%;
 }
-
 .icloudSync .textos .linea01{
   width:280px;
   height:15px;
@@ -408,7 +400,7 @@
    width:330px;
    height:100px;
    margin-left:30px;
-   margin-top:200px;
+   margin-top:130px;
    display: grid;
    grid-column: 1;
    grid-row:7;
@@ -428,7 +420,6 @@
    color: rgb(90, 87, 87);
    font-size: medium;
 }
-
 .completeHistory .completeHistorytextos{
    width:300px;
    height:50px;
@@ -444,7 +435,6 @@
    grid-template-columns: 50% 50%;
    grid-template-rows:25% 25% 25% 25%;
 }
-
 .completeHistory .completeHistorytextos .textoslinea01{
   width:300px;
   height:15px;
@@ -514,7 +504,6 @@
    color: rgb(90, 87, 87);
    font-size: medium;
 }
-
 .accesClipboard .accesClipboardtextos{
    width:300px;
    height:100px;
@@ -530,7 +519,6 @@
    grid-template-columns: 50% 50%;
    grid-template-rows:25% 25% 25% 25%;
 }
-
 .accesClipboard .accesClipboardtextos .textoslinea01{
   width:300px;
   height:15px;
@@ -579,7 +567,7 @@
       width:360px;
       height:150px;
       margin-left:15px;
-      margin-top:100px;
+      margin-top:50px;
       display: grid;
       grid-column: 1;
       grid-row:8;
@@ -593,7 +581,7 @@
    width:330px;
    height:100px;
    margin-left:30px;
-   margin-top:100px;
+   margin-top:110px;
    display: grid;
    grid-column: 1;
    grid-row:9;
@@ -620,7 +608,7 @@
    grid-row:1;
    height:25px;
    margin-left:110px;
-   margin-top:30px;
+   margin-top:40px;
    color: rgb(90, 87, 87);
    font-size: large;
 }
@@ -665,7 +653,7 @@
    width:50px;
    height:50px;
    margin-left:175px;
-   margin-top:50px;
+   margin-top:60px;
    display: grid;
    grid-column: 1;
    grid-row:10;
@@ -775,7 +763,7 @@
    width:50px;
    height:50px;
    margin-left:170px;
-   margin-top:50px;
+   margin-top:70px;
    display: grid;
    grid-column: 1;
    grid-row:11;
@@ -863,11 +851,10 @@
    width:50px;
    height:50px;
    margin-left:170px;
-   margin-top:40px;
+   margin-top:60px;
    display: grid;
    grid-column: 1;
    grid-row:12;
- 
 }
 .contenedor .Sneak img{
    width: 100%;
@@ -952,7 +939,7 @@
     grid-column: 1;
     grid-row:13;
     margin-left: 110px;
-    margin-top:30px;
+    margin-top:60px;
  }
  .contenedor .IBM{
    display: grid;
@@ -966,32 +953,31 @@
     grid-column: 1;
     grid-row:13;
     margin-left:110px;
-    margin-top:220px;
+    margin-top:200px;
  }
  .contenedor .Hewlett{
    display: grid;
     grid-column: 1;
     grid-row:14;
     margin-left:130px;
-    margin-top:50px;
+    margin-top:80px;
  }
  .contenedor .Vector{
    display: grid;
     grid-column: 1;
     grid-row:14;
     margin-left:130px;
-    margin-top:150px;
+    margin-top:160px;
  }
  /*Clipboard for iOS and Mac OS*/
  .contenedor .Clipboard{
    width:330px;
    height:100px;
    margin-left:10px;
-   margin-top:0px;
+   margin-top:30px;
    display: grid;
    grid-column: 1;
    grid-row:15;
-   
    display: grid;
    grid-template-columns: 50% 50%;
    grid-template-rows:25% 25% 25% 25%;
@@ -1003,7 +989,7 @@
    grid-row:1;
    height:25px;
    margin-left:45px;
-   margin-top:0px;
+   margin-top:20px;
    color: rgb(90, 87, 87);
    font-size: large;
 }
@@ -1014,7 +1000,7 @@
    grid-row:1;
    height:25px;
    margin-left:135px;
-   margin-top:30px;
+   margin-top:50px;
    color: rgb(90, 87, 87);
    font-size: large;
 }
@@ -1086,12 +1072,12 @@
     font-size: large;
  }
   .contenedor .downloadIos2{
-   width:280px;
+   width:250px;
    height:25px;
    padding:10px;
    padding-top:10px;
-   margin-left:35px;
-   margin-top:0px;
+   margin-left:55px;
+   margin-top:80px;
    color: white;
    font-size: large;
    text-align: center;
@@ -1102,12 +1088,12 @@
    background-image:linear-gradient(rgb(7, 232, 252),rgb(7, 232, 252), rgb(36, 154, 164) );
 }
 .contenedor .downloadMac2{
-   width:280px;
+   width:250px;
    height:25px;
    padding:10px;
    padding-top:10px;
-   margin-left:35px;
-   margin-top:80px;
+   margin-left:55px;
+   margin-top:150px;
    color: white;
    font-size: large;
    text-align: center;
@@ -1125,11 +1111,10 @@
    grid-column: 1;
    grid-row:17;
    margin-left:10px;
+   margin-top:80px;
    display: grid;
    grid-template-columns:50% 50%;
    grid-template-rows:20% 20% 20% 20% 20%;
-  /* border: 1px solid red;*/
-
 }
 .footer .logo2{
     width:60px;
@@ -1207,17 +1192,62 @@
    grid-column: 1;
    grid-row:18;
    margin-left:90px;
-   margin-top:140px;
-
+   margin-top:350px;
    display: grid;
    grid-template-columns:33% 33% 33%;
    grid-template-rows:100%;
   /* border: 1px solid rgb(26, 255, 0);*/
 }
+
+/*footer*/
+footer{ 
+   background-color: white;
+   display: flex;
+   flex-wrap: wrap;
+   flex-direction: column;
+   justify-content: center;
+   width: 100%;
+   margin-top:0px;
+   padding:10px;
+   margin: auto;
+   border-top:1px solid black;
+ }
+ footer ul{
+   padding:10px;
+   display: flex;
+   flex-wrap: wrap;
+   flex-direction: row;
+   justify-content: space-around;
+ }
+ footer li{
+   display: flex;
+   flex-wrap: wrap;
+ }
+ footer ul li a .imgFooter{
+   width:40px;
+   height:40px;
+}
+footer ul li a .imgFooter img{
+   width:100%;
+   height:100%;
+ }
+ footer p{
+   margin: auto;
+   margin-top:15px;
+   display: flex;
+   border-radius: 5px;
+   padding:1%;
+   font-size: 1.2rem;
+   color: black;
+   font-weight: 900;
+   border: 2px solid black;
+   background-color: white;
+ }
+
 /**************************************************/
 /****************MEDIA QUERY***********************/
 /**************************************************/
-@media only screen and (min-width:1024px) {
+@media only screen and (min-width:1024px){
    *{
       padding:0px;
       margin:0px;
@@ -1225,14 +1255,13 @@
   }
   .contenedor{
       width:990px;
-      height:2950px;
+      height:2000px;
       display: grid;
       grid-template-columns:25% 25% 25% 25%;
-      grid-template-rows:5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5%;
+      grid-template-rows:5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5%;
       margin: auto;
       background-image:url('../img/bg-header-desktop.png');
       background-repeat:no-repeat;
-      
   }
   .contenedor .logo{
        width:80px;
@@ -1241,10 +1270,10 @@
       grid-column:2;
       grid-row:1;
       margin-left:170px;
-      margin-top:100px;
+      margin-top:50px;
   }
   .contenedor .logo img{
-   width:100%;
+  width:100%;
   height:100%;
 }
 .contenedor .titulo1{
@@ -1254,10 +1283,9 @@
    margin-top: 0px;
    display: grid;
    grid-template-columns: 50% 50%;
-   grid-template-rows: 50% 50%;
+   grid-template-rows: 30% 30%;
    font-size:small;
 }
-
   .contenedor h1{
        width:400px;
        height: 70px;
@@ -1265,9 +1293,8 @@
        grid-column:1;
        grid-row:6;
        margin-left:20px;
-       margin-top:100px;
+       margin-top:70px;
        font-size:x-large;
-
        display: grid;
        grid-template-columns: 50% 50%;
        grid-template-rows: 50% 50%; 
@@ -1299,7 +1326,7 @@
       grid-column:2;
       grid-row:1;
       margin-left:10px;
-      margin-top:250px;
+      margin-top:200px;
       color: rgb(189, 184, 184);
       
       display: grid;
@@ -1342,7 +1369,7 @@
       padding:10px;
       padding-top:10px;
       margin-left:70px;
-      margin-top:170px;
+      margin-top:150px;
       color: white;
       font-size:small;
       text-align: center;
@@ -1358,7 +1385,7 @@
       padding:10px;
       padding-top:10px;
       margin-left:230px;
-      margin-top:170px;
+      margin-top:150px;
       color: white;
       font-size:small;
       text-align: center;
@@ -1412,7 +1439,7 @@
       grid-column:1;
       grid-row:4;
       margin-left:239px;
-      margin-top: 70px;
+      margin-top:40px;
       color: rgb(189, 184, 184);
       font-size:small;
    
@@ -1519,7 +1546,7 @@
       width:330px;
       height:80px;
       margin-left:300px;
-      margin-top:140px;
+      margin-top:90px;
       display: grid;
       grid-column:2;
       grid-row:5;
@@ -1576,7 +1603,7 @@
       width:330px;
       height:80px;
       margin-left:300px;
-      margin-top:90px;
+      margin-top:70px;
       display: grid;
       grid-column:2;
       grid-row:6;
@@ -1723,7 +1750,7 @@
  .contenedor .accesClipboard{
    width:430px;
    height:100px;
-   margin-left:10px;
+   margin-left:70px;
    margin-top:120px;
    display: grid;
    grid-column: 2;
@@ -1754,7 +1781,6 @@
    color: rgb(90, 87, 87);
    font-size:13px;
 }
-
 .accesClipboard .accesClipboardtextos{
    width:300px;
    height:100px;
@@ -1770,7 +1796,6 @@
    grid-template-columns: 50% 50%;
    grid-template-rows:25% 25% 25% 25%;
 }
-
 .accesClipboard .accesClipboardtextos .textoslinea01{
   width:300px;
   height:15px;
@@ -1832,7 +1857,7 @@
  .contenedor .supercharge{
    width:330px;
    height:100px;
-   margin-left:100px;
+   margin-left:480px;
    margin-top:0px;
    display: grid;
    grid-column: 2;
@@ -1902,7 +1927,7 @@
    width:25px;
    height:25px;
    margin-left:200px;
-   margin-top:0px;
+   margin-top:20px;
    display: grid;
    grid-column:1;
    grid-row:13; 
@@ -2011,7 +2036,7 @@
    width:25px;
    height:25px;
    margin-left:225px;
-   margin-top:5px;
+   margin-top:15px;
    display: grid;
    grid-column:2;
    grid-row:13; 
@@ -2098,7 +2123,7 @@
    width:25px;
    height:20px;
    margin-left:230px;
-   margin-top:5px;
+   margin-top:20px;
    display: grid;
    grid-column:3;
    grid-row:13;
@@ -2189,7 +2214,7 @@
     grid-column: 1;
     grid-row:14;
     margin-left:70px;
-    margin-top:50px;
+    margin-top:80px;
  }
  .contenedor .Google img{
    width:100%;
@@ -2201,7 +2226,7 @@
    display: grid;
     grid-column: 1;
     grid-row:14;
-    margin-top:50px;
+    margin-top:80px;
     margin-left:220px;
  }
  .contenedor .IBM img{
@@ -2215,7 +2240,7 @@
     grid-column:2;
     grid-row:14;
     margin-left:190px;
-    margin-top:53px;
+    margin-top:83px;
  }
  .contenedor .Microsoft img{
    width:100%;
@@ -2228,7 +2253,7 @@
     grid-column:3;
     grid-row:14;
     margin-left:150px;
-    margin-top:50px;
+    margin-top:75px;
  }
  .contenedor .Hewlett img{
    width:100%;
@@ -2241,7 +2266,7 @@
     grid-column:4;
     grid-row:14;
     margin-left:40px;
-    margin-top:50px;
+    margin-top:85px;
  }
  .contenedor .Vector img{
    width:100%;
@@ -2289,7 +2314,7 @@
    grid-column: 1;
    grid-row:2;
    margin-left:0px;
-   margin-top:10px;
+   margin-top:30px;
    display: grid;
    grid-template-columns: 33% 33% 33%;
    grid-template-rows:25% 25% 25% 25%;
@@ -2355,7 +2380,7 @@
    padding:10px;
    padding-top:10px;
    margin-left:70px;
-   margin-top:100px;
+   margin-top:120px;
    color: white;
    font-size:small;
    text-align: center;
@@ -2371,7 +2396,7 @@
    padding:10px;
    padding-top:10px;
    margin-left:230px;
-   margin-top:100px;
+   margin-top:120px;
    color: white;
    font-size:small;
    text-align: center;
@@ -2389,6 +2414,7 @@
    grid-column: 1;
    grid-row:18;
    margin-left:60px;
+   margin-top:100px;
    display: grid;
    grid-template-columns:50% 50%;
    grid-template-rows:20% 20% 20% 20% 20%;
@@ -2473,10 +2499,12 @@
    display: grid;
    grid-template-columns:33% 33% 33%;
    grid-template-rows:100%;
+ 
 }
 .logos .fb{
    width:15px;
    height:15px;
+   margin-top: 120px;
 }
 .logos .fb img{
    width:100%;
@@ -2485,6 +2513,7 @@
 .logos .tw{
    width:15px;
    height:15px;
+   margin-top: 120px;
 }
 .logos .tw img{
    width:100%;
@@ -2493,9 +2522,53 @@
 .logos .Ig{
    width:15px;
    height:15px;
+   margin-top: 120px;
 }
 .logos .Ig img{
    width:100%;
    height:100%;
 }
+/*footer*/
+footer{ 
+   background-color: white;
+   display: flex;
+   flex-wrap: wrap;
+   flex-direction: column;
+   justify-content: center;
+   width: 100%;
+   margin-top:0px;
+   padding:10px;
+   border-top:1px solid black;
+ }
+ footer ul{
+   padding:10px;
+   display: flex;
+   flex-wrap: wrap;
+   flex-direction: row;
+   justify-content: space-around;
+ }
+ footer li{
+   display: flex;
+   flex-wrap: wrap;
+ }
+ footer ul li a .imgFooter{
+   width:40px;
+   height:40px;
+}
+footer ul li a .imgFooter img{
+   width:100%;
+   height:100%;
+ }
+ footer p{
+   margin: auto;
+   margin-top:15px;
+   display: flex;
+   border-radius: 5px;
+   padding:1%;
+   font-size: 1.2rem;
+   color: black;
+   font-weight: 900;
+   border: 2px solid black;
+   background-color: white;
+ }
 }
